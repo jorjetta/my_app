@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">my_app</string>
+    <string name="woman">Woman</string>
+    <string name="man">Man</string>
+    <string name="travel">travel</string>
+    <string name="baby">baby</string>
+    <string name="tech">tech</string>
+    <string name="food_amp_drink"><![CDATA[food&drink]]></string>
+</resources>

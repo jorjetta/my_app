@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#80BDB8"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:text="@string/woman"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton3"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#629898"
+        android:gravity="center"
+        android:text="@string/man"
+        android:textSize="25sp"
+        android:paddingTop="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#47817C"
+        android:gravity="center"
+        android:text="@string/baby"
+        android:textSize="25sp"
+        android:paddingTop="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatButton5"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatButton4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+        app:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#23756D"
+        android:gravity="center"
+        android:text="@string/travel"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="100dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton3"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2"
+        app:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatButton5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#305552"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:text="@string/tech"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton3"
+        app:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#486A67"
+        android:gravity="center"
+        android:text="@string/food_amp_drink"
+        android:textSize="25sp"
+        android:paddingTop="100dp"
+        app:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton5"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/baby"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton3"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatButton4"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/appCompatButton3"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton3"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/airplane" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatButton2"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/brush" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="@+id/appCompatButton2"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/man" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton5"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatTextView"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/appCompatButton5"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton3"
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/tech" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton5"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton4"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/food" />
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
